@@ -1,0 +1,431 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15T10:30:00Z",
+    "total_records": 8,
+    "data_source": "NYC Safety Management System",
+    "api_version": "v2.1"
+  },
+  "locations": [
+    {
+      "id": "LOC_001",
+      "name": "Times Square",
+      "slug": "times-square",
+      "coordinates": {
+        "latitude": 40.758,
+        "longitude": -73.9855
+      },
+      "address": {
+        "street": "Broadway & 7th Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10036",
+        "country": "USA"
+      },
+      "safety_metrics": {
+        "overall_score": 85,
+        "category": "safe",
+        "risk_level": "low",
+        "last_assessment": "2024-01-10T14:20:00Z"
+      },
+      "crowd_analytics": {
+        "current_level": "high",
+        "peak_hours": ["12:00-14:00", "18:00-22:00"],
+        "average_daily_visitors": 15000,
+        "capacity_percentage": 78
+      },
+      "incident_data": {
+        "total_incidents_30d": 2,
+        "incident_types": ["minor_theft", "public_disturbance"],
+        "last_incident": "2024-01-08T16:45:00Z",
+        "resolution_time_avg": "15_minutes"
+      },
+      "safety_features": [
+        {
+          "type": "police_station",
+          "name": "NYPD Times Square Substation",
+          "distance_meters": 50
+        },
+        {
+          "type": "tourist_info",
+          "name": "NYC Tourist Information Center",
+          "distance_meters": 100
+        },
+        {
+          "type": "medical_center",
+          "name": "Emergency Medical Station",
+          "distance_meters": 200
+        }
+      ],
+      "description": "Busy commercial area with high security presence",
+      "status": "active",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2024-01-10T14:20:00Z"
+    },
+    {
+      "id": "LOC_002",
+      "name": "Central Park",
+      "slug": "central-park",
+      "coordinates": {
+        "latitude": 40.7829,
+        "longitude": -73.9654
+      },
+      "address": {
+        "street": "Central Park West",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10024",
+        "country": "USA"
+      },
+      "safety_metrics": {
+        "overall_score": 92,
+        "category": "very-safe",
+        "risk_level": "very_low",
+        "last_assessment": "2024-01-12T11:30:00Z"
+      },
+      "crowd_analytics": {
+        "current_level": "medium",
+        "peak_hours": ["10:00-16:00"],
+        "average_daily_visitors": 8500,
+        "capacity_percentage": 45
+      },
+      "incident_data": {
+        "total_incidents_30d": 0,
+        "incident_types": [],
+        "last_incident": null,
+        "resolution_time_avg": null
+      },
+      "safety_features": [
+        {
+          "type": "park_rangers",
+          "name": "Central Park Rangers Station",
+          "distance_meters": 300
+        },
+        {
+          "type": "emergency_phones",
+          "name": "Emergency Call Boxes",
+          "distance_meters": 150
+        },
+        {
+          "type": "lighting",
+          "name": "Well-lit Paths",
+          "distance_meters": 0
+        }
+      ],
+      "description": "Large public park with excellent safety measures",
+      "status": "active",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2024-01-12T11:30:00Z"
+    },
+    {
+      "id": "LOC_003",
+      "name": "Brooklyn Bridge",
+      "slug": "brooklyn-bridge",
+      "coordinates": {
+        "latitude": 40.7061,
+        "longitude": -73.9969
+      },
+      "address": {
+        "street": "Brooklyn Bridge",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10038",
+        "country": "USA"
+      },
+      "safety_metrics": {
+        "overall_score": 78,
+        "category": "moderate",
+        "risk_level": "moderate",
+        "last_assessment": "2024-01-09T16:15:00Z"
+      },
+      "crowd_analytics": {
+        "current_level": "high",
+        "peak_hours": ["08:00-10:00", "17:00-19:00"],
+        "average_daily_visitors": 12000,
+        "capacity_percentage": 85
+      },
+      "incident_data": {
+        "total_incidents_30d": 1,
+        "incident_types": ["bicycle_accident"],
+        "last_incident": "2024-01-05T14:30:00Z",
+        "resolution_time_avg": "20_minutes"
+      },
+      "safety_features": [
+        {
+          "type": "cctv",
+          "name": "Bridge Surveillance System",
+          "distance_meters": 0
+        },
+        {
+          "type": "tourist_police",
+          "name": "Bridge Patrol Unit",
+          "distance_meters": 100
+        }
+      ],
+      "description": "Historic bridge with moderate safety precautions",
+      "status": "active",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2024-01-09T16:15:00Z"
+    },
+    {
+      "id": "LOC_004",
+      "name": "Chinatown",
+      "slug": "chinatown",
+      "coordinates": {
+        "latitude": 40.7157,
+        "longitude": -73.997
+      },
+      "address": {
+        "street": "Mott Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10013",
+        "country": "USA"
+      },
+      "safety_metrics": {
+        "overall_score": 88,
+        "category": "safe",
+        "risk_level": "low",
+        "last_assessment": "2024-01-11T13:45:00Z"
+      },
+      "crowd_analytics": {
+        "current_level": "medium",
+        "peak_hours": ["11:00-15:00", "18:00-21:00"],
+        "average_daily_visitors": 6500,
+        "capacity_percentage": 55
+      },
+      "incident_data": {
+        "total_incidents_30d": 1,
+        "incident_types": ["minor_dispute"],
+        "last_incident": "2024-01-03T19:20:00Z",
+        "resolution_time_avg": "10_minutes"
+      },
+      "safety_features": [
+        {
+          "type": "community_watch",
+          "name": "Chinatown Community Safety",
+          "distance_meters": 50
+        },
+        {
+          "type": "local_police",
+          "name": "5th Precinct",
+          "distance_meters": 400
+        }
+      ],
+      "description": "Cultural district with community safety initiatives",
+      "status": "active",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2024-01-11T13:45:00Z"
+    },
+    {
+      "id": "LOC_005",
+      "name": "Wall Street",
+      "slug": "wall-street",
+      "coordinates": {
+        "latitude": 40.7074,
+        "longitude": -74.0113
+      },
+      "address": {
+        "street": "Wall Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10005",
+        "country": "USA"
+      },
+      "safety_metrics": {
+        "overall_score": 95,
+        "category": "very-safe",
+        "risk_level": "very_low",
+        "last_assessment": "2024-01-13T10:00:00Z"
+      },
+      "crowd_analytics": {
+        "current_level": "low",
+        "peak_hours": ["09:00-11:00", "15:00-17:00"],
+        "average_daily_visitors": 3500,
+        "capacity_percentage": 25
+      },
+      "incident_data": {
+        "total_incidents_30d": 0,
+        "incident_types": [],
+        "last_incident": null,
+        "resolution_time_avg": null
+      },
+      "safety_features": [
+        {
+          "type": "high_security",
+          "name": "Financial District Security",
+          "distance_meters": 0
+        },
+        {
+          "type": "police_station",
+          "name": "Financial District Police",
+          "distance_meters": 200
+        },
+        {
+          "type": "cctv_network",
+          "name": "Advanced Surveillance Network",
+          "distance_meters": 0
+        }
+      ],
+      "description": "Financial district with maximum security measures",
+      "status": "active",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2024-01-13T10:00:00Z"
+    },
+    {
+      "id": "LOC_006",
+      "name": "East Village",
+      "slug": "east-village",
+      "coordinates": {
+        "latitude": 40.7264,
+        "longitude": -73.9818
+      },
+      "address": {
+        "street": "St. Marks Place",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10003",
+        "country": "USA"
+      },
+      "safety_metrics": {
+        "overall_score": 65,
+        "category": "caution",
+        "risk_level": "moderate_high",
+        "last_assessment": "2024-01-08T15:30:00Z"
+      },
+      "crowd_analytics": {
+        "current_level": "medium",
+        "peak_hours": ["20:00-02:00"],
+        "average_daily_visitors": 4200,
+        "capacity_percentage": 60
+      },
+      "incident_data": {
+        "total_incidents_30d": 4,
+        "incident_types": ["noise_complaint", "minor_theft", "public_intoxication", "vandalism"],
+        "last_incident": "2024-01-07T23:15:00Z",
+        "resolution_time_avg": "25_minutes"
+      },
+      "safety_features": [
+        {
+          "type": "community_patrol",
+          "name": "East Village Community Watch",
+          "distance_meters": 100
+        },
+        {
+          "type": "emergency_boxes",
+          "name": "Emergency Call Stations",
+          "distance_meters": 200
+        }
+      ],
+      "description": "Residential area requiring extra caution at night",
+      "status": "active",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2024-01-08T15:30:00Z"
+    },
+    {
+      "id": "LOC_007",
+      "name": "High Line Park",
+      "slug": "high-line-park",
+      "coordinates": {
+        "latitude": 40.748,
+        "longitude": -74.0048
+      },
+      "address": {
+        "street": "High Line",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10014",
+        "country": "USA"
+      },
+      "safety_metrics": {
+        "overall_score": 90,
+        "category": "very-safe",
+        "risk_level": "very_low",
+        "last_assessment": "2024-01-12T14:00:00Z"
+      },
+      "crowd_analytics": {
+        "current_level": "medium",
+        "peak_hours": ["11:00-17:00"],
+        "average_daily_visitors": 5800,
+        "capacity_percentage": 50
+      },
+      "incident_data": {
+        "total_incidents_30d": 0,
+        "incident_types": [],
+        "last_incident": null,
+        "resolution_time_avg": null
+      },
+      "safety_features": [
+        {
+          "type": "park_security",
+          "name": "High Line Security Team",
+          "distance_meters": 100
+        },
+        {
+          "type": "emergency_stations",
+          "name": "Emergency Response Points",
+          "distance_meters": 150
+        },
+        {
+          "type": "maintenance",
+          "name": "Well-maintained Infrastructure",
+          "distance_meters": 0
+        }
+      ],
+      "description": "Elevated park with excellent safety infrastructure",
+      "status": "active",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2024-01-12T14:00:00Z"
+    },
+    {
+      "id": "LOC_008",
+      "name": "SoHo",
+      "slug": "soho",
+      "coordinates": {
+        "latitude": 40.7233,
+        "longitude": -74.003
+      },
+      "address": {
+        "street": "Broadway",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10012",
+        "country": "USA"
+      },
+      "safety_metrics": {
+        "overall_score": 82,
+        "category": "safe",
+        "risk_level": "low",
+        "last_assessment": "2024-01-10T12:15:00Z"
+      },
+      "crowd_analytics": {
+        "current_level": "high",
+        "peak_hours": ["12:00-18:00"],
+        "average_daily_visitors": 11000,
+        "capacity_percentage": 75
+      },
+      "incident_data": {
+        "total_incidents_30d": 2,
+        "incident_types": ["pickpocketing", "counterfeit_goods"],
+        "last_incident": "2024-01-06T15:45:00Z",
+        "resolution_time_avg": "18_minutes"
+      },
+      "safety_features": [
+        {
+          "type": "shopping_security",
+          "name": "SoHo Shopping District Security",
+          "distance_meters": 50
+        },
+        {
+          "type": "tourist_police",
+          "name": "Tourist Safety Patrol",
+          "distance_meters": 150
+        }
+      ],
+      "description": "Shopping district with good security presence",
+      "status": "active",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2024-01-10T12:15:00Z"
+    }
+  ]
+}
